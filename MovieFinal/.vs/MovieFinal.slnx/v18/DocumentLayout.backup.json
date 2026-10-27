@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\MovieFinal\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66474DE2-5EDE-52CB-6B34-191B7AC82C87}|MovieFinal.csproj|c:\\users\\zales\\documents\\code\\vs code\\webserverapp\\final-project-\\moviefinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66474DE2-5EDE-52CB-6B34-191B7AC82C87}|MovieFinal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66474DE2-5EDE-52CB-6B34-191B7AC82C87}|MovieFinal.csproj|c:\\users\\zales\\documents\\code\\vs code\\webserverapp\\final-project-\\moviefinal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66474DE2-5EDE-52CB-6B34-191B7AC82C87}|MovieFinal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-27T14:43:38.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T14:19:27.422Z",
+              "EditorCaption": ""
             }
           ]
         }

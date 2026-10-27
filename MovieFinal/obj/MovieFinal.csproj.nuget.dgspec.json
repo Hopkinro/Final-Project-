@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\MovieFinal\\MovieFinal.csproj": {}
+    "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\MovieFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\MovieFinal\\MovieFinal.csproj": {
+    "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\MovieFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\MovieFinal\\MovieFinal.csproj",
+        "projectUniqueName": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\MovieFinal.csproj",
         "projectName": "MovieFinal",
-        "projectPath": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\MovieFinal\\MovieFinal.csproj",
+        "projectPath": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\MovieFinal.csproj",
         "packagesPath": "C:\\Users\\zales\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\MovieFinal\\obj\\",
+        "outputPath": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

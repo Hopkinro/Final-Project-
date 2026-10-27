@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S7A+Dd/qKQU=",
+  "dgSpecHash": "dMJAqd9Z55M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\MovieFinal\\MovieFinal.csproj",
+  "projectFilePath": "C:\\Users\\zales\\Documents\\Code\\VS Code\\WebServerApp\\Final-Project-\\MovieFinal\\MovieFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zales\\.nuget\\packages\\azure.core\\1.41.0\\azure.core.1.41.0.nupkg.sha512",
     "C:\\Users\\zales\\.nuget\\packages\\azure.identity\\1.12.1\\azure.identity.1.12.1.nupkg.sha512",
