@@ -23,6 +23,21 @@ namespace MovieFinal.Controllers
             return View();
         }
 
+        public IActionResult Movies()
+        {
+            return View();
+        }
+
+        public IActionResult Genres()
+        {
+            return View();
+        }
+
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
