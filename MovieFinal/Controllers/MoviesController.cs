@@ -2,9 +2,19 @@
 
 namespace MovieFinal.Controllers
 {
-    public class HomeController1 : Controller
+    public class MoviesController : Controller
     {
         public IActionResult Index()
+        {
+            return RedirectToAction("Movies", "Genres");
+        }
+
+        public IActionResult Movies()
+        {
+            return View();
+        }
+
+        public IActionResult Genres()
         {
             return View();
         }
