@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MovieFinal.Models;
 using System.Diagnostics;
 
@@ -15,7 +16,12 @@ namespace MovieFinal.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var movies = context.Movies
+                .Include(m => m.Genre)
+                .OrderBy(m => m.Name)
+                .ToList();
+
+            return View(movies);
         }
 
         public IActionResult Privacy()
@@ -28,9 +34,14 @@ namespace MovieFinal.Controllers
             return View();
         }
 
+        [Route("genres")]
         public IActionResult Genres()
         {
-            return View();
+            var genres = context.Genres
+                .OrderBy(g => g.Name)
+                .ToList();
+
+            return View(genres);
         }
 
         public IActionResult AboutUs()
@@ -44,4 +55,10 @@ namespace MovieFinal.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
-}
+
+    
+
+        
+    }
+
+

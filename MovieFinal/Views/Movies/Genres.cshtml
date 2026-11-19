@@ -1,8 +1,32 @@
-﻿@{
-    ViewData["Title"] = "Genres Page";
+﻿@model List<MovieFinal.Data.Movie>
+
+@{
+    ViewBag.Title = "Genres";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Welcome to the Genres Page.</p>
-</div>
+<h2>Genres</h2>
+
+<p>
+    <a asp-action="Index">
+        View Movies
+    </a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Genre ID</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var genre in Model)
+        {
+            <tr>
+                <td>@genre.GenreId</td>
+                <td>@genre.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
