@@ -42,11 +42,7 @@ namespace MovieFinal.Controllers
         [Route("genres")]
         public IActionResult Genres()
         {
-            var genres = _context.Genres
-                .OrderBy(g => g.Name)
-                .ToList();
-
-            return View(genres);
+            return View();
         }
 
         public IActionResult AboutUs()

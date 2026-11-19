@@ -18,20 +18,29 @@ namespace MovieFinal.Controllers
 
         public IActionResult Movies()
         {
-            return View();
+            var movies = context.Movies
+                .Include(m => m.Genre)
+                .OrderBy(m => m.Name)
+                .ToList();
+
+            return View(movies);
         }
 
         public IActionResult Genres()
         {
-            return View();
+            var genres = context.Genres
+                .OrderBy(g => g.Name)
+                .ToList();
+
+            return View(genres);
         }
-    
 
-    
-    
-     
 
-        
+
+
+
+
+
 
         [HttpGet]
         public IActionResult Add()
