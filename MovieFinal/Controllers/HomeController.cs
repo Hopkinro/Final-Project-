@@ -23,16 +23,6 @@ namespace MovieFinal.Controllers
             return View();
         }
 
-        public IActionResult Movies()
-        {
-            return View();
-        }
-
-        public IActionResult Genres()
-        {
-            return View();
-        }
-
         public IActionResult AboutUs()
         {
             return View();

@@ -23,8 +23,8 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/zales/Documents/Code/VS Code/WebServerApp/Final-Project-/MovieFinal/Views/AboutUs/AboutUs.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xBYm91dFVzLmNzaHRtbA==
+[C:/Users/zales/Documents/Code/VS Code/WebServerApp/Final-Project-/MovieFinal/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/zales/Documents/Code/VS Code/WebServerApp/Final-Project-/MovieFinal/Views/Home/Index.cshtml]
@@ -41,6 +41,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/zales/Documents/Code/VS Code/WebServerApp/Final-Project-/MovieFinal/Views/Movies/Movies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXE1vdmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zales/Documents/Code/VS Code/WebServerApp/Final-Project-/MovieFinal/Views/Movies/PopularMovies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXFBvcHVsYXJNb3ZpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zales/Documents/Code/VS Code/WebServerApp/Final-Project-/MovieFinal/Views/Movies/RecommendedMovies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXFJlY29tbWVuZGVkTW92aWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zales/Documents/Code/VS Code/WebServerApp/Final-Project-/MovieFinal/Views/Movies/ReleasingMovies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXFJlbGVhc2luZ01vdmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/zales/Documents/Code/VS Code/WebServerApp/Final-Project-/MovieFinal/Views/Shared/Error.cshtml]

@@ -18,5 +18,20 @@ namespace MovieFinal.Controllers
         {
             return View();
         }
+
+        public IActionResult PopularMovies()
+        {
+            return View();
+        }
+
+        public IActionResult RecommendedMovies()
+        {
+            return View();
+        }
+
+        public IActionResult ReleasingMovies()
+        {
+            return View();
+        }
     }
 }
