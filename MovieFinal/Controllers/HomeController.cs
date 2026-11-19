@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MovieFinal.Models;
+using MovieFinal.Data;
 using System.Diagnostics;
 
 namespace MovieFinal.Controllers
@@ -8,15 +9,19 @@ namespace MovieFinal.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly MovieContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+            ILogger<HomeController> logger,
+            MovieContext context)
         {
             _logger = logger;
+            _context = context;
         }
-
+       
         public IActionResult Index()
         {
-            var movies = context.Movies
+            var movies = _context.Movies
                 .Include(m => m.Genre)
                 .OrderBy(m => m.Name)
                 .ToList();
@@ -37,7 +42,7 @@ namespace MovieFinal.Controllers
         [Route("genres")]
         public IActionResult Genres()
         {
-            var genres = context.Genres
+            var genres = _context.Genres
                 .OrderBy(g => g.Name)
                 .ToList();
 

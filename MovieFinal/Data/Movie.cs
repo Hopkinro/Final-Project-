@@ -21,8 +21,5 @@ namespace MovieFinal.Data
 
             public string Slug =>
             (Name ?? "").Replace(' ', '-').ToLower() + "-" + (Year?.ToString() ?? "");
-        }
     }
-
-}
 }

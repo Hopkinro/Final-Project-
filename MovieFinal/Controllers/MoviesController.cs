@@ -25,7 +25,7 @@ namespace MovieFinal.Controllers
         {
             return View();
         }
-    }
+    
 
     
     
@@ -99,6 +99,4 @@ namespace MovieFinal.Controllers
             return RedirectToAction("Index", "Home");
         }
     }
-}
-
 }
