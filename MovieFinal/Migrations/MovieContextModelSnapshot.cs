@@ -126,6 +126,62 @@ namespace MovieFinal.Migrations
                             Name = "Moonstruck",
                             Rating = 4,
                             Year = 1988
+                        },
+                        new
+                        {
+                            MovieId = 4,
+                            GenreId = "H",
+                            Name = "Maximum Overdrive",
+                            Rating = 3,
+                            Year = 1986
+                        },
+                        new
+                        {
+                            MovieId = 5,
+                            GenreId = "D",
+                            Name = "Boyz in the Hood",
+                            Rating = 4,
+                            Year = 1991
+                        },
+                        new
+                        {
+                            MovieId = 6,
+                            GenreId = "A",
+                            Name = "The Incredible Hulk",
+                            Rating = 3,
+                            Year = 2008
+                        },
+                        new
+                        {
+                            MovieId = 7,
+                            GenreId = "D",
+                            Name = "Scarface",
+                            Rating = 4,
+                            Year = 1983
+                        },
+                        new
+                        {
+                            MovieId = 8,
+                            GenreId = "R",
+                            Name = "Cars",
+                            Rating = 4,
+                            Year = 2006
+                        },
+                        new
+                        {
+                            MovieId = 9,
+                            GenreId = "A",
+                            Name = "Indiana Jones the Last Crusade",
+                            Rating = 4,
+                            Year = 1989
+                        },
+                        new
+                        {
+                            MovieId = 10,
+                            GenreId = "D",
+                            Name = "A Few Good Men",
+                            Rating = 4,
+                            Year = 1992
                         });
                 });
 
@@ -171,8 +227,64 @@ namespace MovieFinal.Migrations
                         {
                             ReleasingMovieId = 3,
                             GenreId = "A",
+                            Name = "Godzilla x Kong: Supernova",
+                            ReleaseYear = 2027
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 4,
+                            GenreId = "A",
+                            Name = "The Legend of Zelda",
+                            ReleaseYear = 2027
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 5,
+                            GenreId = "A",
                             Name = "Sonic the Hedgehog 4",
                             ReleaseYear = 2027
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 6,
+                            GenreId = "A",
+                            Name = "Fast Forever",
+                            ReleaseYear = 2028
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 7,
+                            GenreId = "S",
+                            Name = "Mad Max: The Wasteland",
+                            ReleaseYear = 2028
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 8,
+                            GenreId = "H",
+                            Name = "Gremlins 3",
+                            ReleaseYear = 2028
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 9,
+                            GenreId = "S",
+                            Name = "Star Wars: Rogue Squadron",
+                            ReleaseYear = 2028
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 10,
+                            GenreId = "A",
+                            Name = "Den of Thieves 3",
+                            ReleaseYear = 2028
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 11,
+                            GenreId = "A",
+                            Name = "King Spawn",
+                            ReleaseYear = 2028
                         });
                 });
 
