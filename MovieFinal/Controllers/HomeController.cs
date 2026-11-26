@@ -61,5 +61,3 @@ namespace MovieFinal.Controllers
 
         
     }
-
-
