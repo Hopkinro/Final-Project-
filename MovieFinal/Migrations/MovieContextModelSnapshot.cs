@@ -129,6 +129,53 @@ namespace MovieFinal.Migrations
                         });
                 });
 
+            modelBuilder.Entity("MovieFinal.Data.ReleasingMovie", b =>
+                {
+                    b.Property<int>("ReleasingMovieId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReleasingMovieId"));
+
+                    b.Property<string>("GenreId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ReleaseYear")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReleasingMovieId");
+
+                    b.HasIndex("GenreId");
+
+                    b.ToTable("ReleasingMovies");
+
+                    b.HasData(
+                        new
+                        {
+                            ReleasingMovieId = 1,
+                            GenreId = "A",
+                            Name = "Lord of the Rings: The Hunt for Gollum",
+                            ReleaseYear = 2027
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 2,
+                            GenreId = "A",
+                            Name = "Children of Blood and Bone",
+                            ReleaseYear = 2027
+                        },
+                        new
+                        {
+                            ReleasingMovieId = 3,
+                            GenreId = "A",
+                            Name = "Sonic the Hedgehog 4",
+                            ReleaseYear = 2027
+                        });
+                });
+
             modelBuilder.Entity("MovieFinal.Data.Movie", b =>
                 {
                     b.HasOne("MovieFinal.Data.Genre", "Genre")
@@ -136,6 +183,15 @@ namespace MovieFinal.Migrations
                         .HasForeignKey("GenreId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Genre");
+                });
+
+            modelBuilder.Entity("MovieFinal.Data.ReleasingMovie", b =>
+                {
+                    b.HasOne("MovieFinal.Data.Genre", "Genre")
+                        .WithMany()
+                        .HasForeignKey("GenreId");
 
                     b.Navigation("Genre");
                 });

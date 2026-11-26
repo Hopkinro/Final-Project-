@@ -14,6 +14,8 @@ namespace MovieFinal.Data
 
         public DbSet<Genre> Genres { get; set; }
 
+        public DbSet<ReleasingMovie> ReleasingMovies { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -32,6 +34,12 @@ namespace MovieFinal.Data
                 new Movie { MovieId = 1, Name = "Casablanca", Year = 1942, Rating = 5, GenreId = "D" },
                 new Movie { MovieId = 2, Name = "Wonder Woman", Year = 2017, Rating = 3, GenreId = "A" },
                 new Movie { MovieId = 3, Name = "Moonstruck", Year = 1988, Rating = 4, GenreId = "R" }
+            );
+
+            modelBuilder.Entity<ReleasingMovie>().HasData(
+                new ReleasingMovie { ReleasingMovieId = 1, Name = "Lord of the Rings: The Hunt for Gollum", ReleaseYear = 2027, GenreId = "A" },
+                new ReleasingMovie { ReleasingMovieId = 2, Name = "Children of Blood and Bone", ReleaseYear = 2027, GenreId = "A" },
+                new ReleasingMovie { ReleasingMovieId = 3, Name = "Sonic the Hedgehog 4", ReleaseYear = 2027, GenreId = "A" }
             );
         }
     }
